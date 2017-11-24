@@ -1,0 +1,33 @@
+
+<!--NavBar-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navber-header">
+      <a routerLink="/main" routerLinkActive="active" class="navbar-brand" style="font-size: 30px" >Renee</a>
+    </div>
+    <ul class="nav navbar-nav navbar-left">
+      <li class="active">
+        <a routerLink="/do" routerLinkActive="active" style="font-size: 30px">Do</a>
+      </li>
+      <li class="active">
+        <a routerLink="/you" routerLinkActive="active" style="font-size: 30px">You</a>
+      </li>
+      <li class="active">
+        <a routerLink="/miss" routerLinkActive="active" style="font-size: 30px">Miss</a>
+      </li>
+      <li class="active">
+        <a routerLink="me" routerLinkActive="active" style="font-size: 30px">Me</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="/signup" routerLinkActive="active"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+
+      <li><a routerLink="/login" routerLinkActive="active"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+
